@@ -18,6 +18,7 @@
     font-family: 'Open Sans', sans-serif;
     border: none;
     outline: none;
+    text-decoration: none;
 }
 
 /* -------HEADER--------- */
@@ -64,6 +65,7 @@
 }
 .header--intro_info-search::placeholder{
     padding-left: 3vw;
+    font-size: 1vw;
     text-decoration: underline 1px #212330;
     color: #212330;
 }
@@ -72,6 +74,7 @@
     padding-left: 4vw;
     width: 40%;
     height: 15vh;
+    font-size: 1vw;
     background-color: white;
     background-image: url("../img/icon\ local.png");
     background-repeat: no-repeat;
@@ -82,9 +85,10 @@
     border: none;
     width: 20%;
     height: 15vh;
-    background-color: #4640DE;
-    color: #fff;
+    font-size: 1vw;
     font-weight: 700;
+    color: #fff;
+    background-color: #4640DE;
 }
 .header--intro_image{
     width: 40%;
@@ -94,14 +98,121 @@
     width: 90%;
 }
 .header--intro_copyright{
-    font-size: 0.8rem;
+    font-size: 1vw;
     background-color: #DCF0FB;
 }
-.header--intro_copyright span{
+span{
     color:#4640DE;
 }
 .header--intro_copyright p{
     padding-left: 8vw;
     padding-bottom: 7vh;
-    width: 40%;
+    width: 42%;
+}
+
+/*-------MAIN--------*/
+
+.main--intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+    background-color: #fff;
+}
+.main--intro_content{
+    width: 13%;
+}
+.main--intro p{
+    margin-right: 2vw;
+    font-size: 1.1vw;
+}
+.main--intro_content img{
+    width: 90%;
+}
+.main--categories{
+    padding-bottom: 15vh;
+    width: 100%;
+    background-color: #F6F7FB;
+}
+.main--categories_title{
+    width: 100%;
+    height: 35vh;
+}
+.main--categories_title h2{
+    padding-top: 10vh;
+    padding-left: 7vw;
+    font-weight: bolder;
+    font-size: 3vw;
+    color: #212330;
+}
+.main--categories_content{
+    height: 80vh;
+    position: relative;
+}
+.main--categories_content-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    padding: 0 7vw;
+    margin-bottom: 1vh;
+}
+.main--categories_content-row__item{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 10vh;
+    padding: 0 2vw;
+    width: 18%;
+    height: 90%;
+    color: #212330;
+    background-color: #fff;
+    cursor: pointer;
+}
+.main--categories_content-row__item:hover{
+    border-radius: 5px;
+    color: #fff;
+    background-color: #ED5553;
+    background-image: url("../img/medplace-grafismo\ menor\ branco.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 55%;
+    transform: scale(1.05);
+    transition: all 0.1s;
+}
+.main--categories_background{
+    position: absolute;
+    bottom: 12vh;
+    left:2vw;
+    width: 35%;
+}
+.transparent{
+    background-color: rgba(255, 255, 255,0);
+}
+.transparent:hover{
+    background-color: rgba(255, 255, 255,0);
+    background-image: unset;
+    cursor: unset;
+}
+.background{
+    color: #fff;
+    background-color: #EF5253;
+    background-image: url("../img/medplace-grafismo\ menor\ branco.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 55%;
+}
+.main--categories_title p{
+    padding-left: 7vw;
+    padding-top: 2vh;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    color: #212330;
+}
+.jobs{
+    padding-top: 12vh;
 }
