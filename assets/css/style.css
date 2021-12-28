@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Gilroy;
+    src: url("/assets/font/Gilroy-Light.otf");
+    font-weight: lighter;
+}
+@font-face {
+    font-family: Gilroy;
+    src: url("/assets/font/Gilroy-ExtraBold.otf");
+    font-weight: bolder;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+}
+
+/* -------HEADER--------- */
+
+.header--menu{
+    width: 100%;
+}
+.header--menu img{
+    width: 100%;
+}
+.header--intro{
+    display: flex;
+    width: 100%;
+    background-color: #DCF0FB;
+}
+.header--intro_info{
+    margin-left: 8vw;
+    padding-bottom: 10vh;
+    width: 55%;
+}
+.header--intro_info-title{
+    margin-top: 20vh;
+    width: 90%;
+    text-align: left;
+    font-family: "Gilroy";
+    font-size: 4.5vw;
+    font-weight: bolder;
+    color: #212330;
+}
+.header--intro_info-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    width: 100%;
+}
+.header--intro_info-search{
+    width: 40%;
+    height: 15vh;
+    background-image: url(/assets/img/search-svgrepo-com\ lupa.svg);
+    background-repeat: no-repeat;
+    background-position: -10% 50%;
+    background-size: 25% 25%;
+}
+.header--intro_info-search::placeholder{
+    padding-left: 3vw;
+    text-decoration: underline 1px #212330;
+    color: #212330;
+}
+.header--intro_info-select{
+    border: 1px solid #212330;
+    padding-left: 4vw;
+    width: 40%;
+    height: 15vh;
+    background-color: white;
+    background-image: url(/assets/img/icon\ local.png);
+    background-repeat: no-repeat;
+    background-position: 3% 50%;
+    background-size: 9%;
+}
+.header--intro_info-button{
+    border: none;
+    width: 20%;
+    height: 15vh;
+    background-color: #4640DE;
+    color: #fff;
+    font-weight: 700;
+}
+.header--intro_image{
+    width: 40%;
+    margin-top: 7vh;
+}
+.header--intro_image-img{
+    width: 90%;
+}
