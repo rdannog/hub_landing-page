@@ -35,7 +35,7 @@
 }
 .header--intro_info{
     margin-left: 8vw;
-    padding-bottom: 10vh;
+    padding-bottom: 20vh;
     width: 55%;
 }
 .header--intro_info-title{
@@ -68,7 +68,7 @@
     color: #212330;
 }
 .header--intro_info-select{
-    border: 1px solid #212330;
+    border: 1px solid #707070;
     padding-left: 4vw;
     width: 40%;
     height: 15vh;
@@ -92,4 +92,16 @@
 }
 .header--intro_image-img{
     width: 90%;
+}
+.header--intro_copyright{
+    font-size: 0.8rem;
+    background-color: #DCF0FB;
+}
+.header--intro_copyright span{
+    color:#4640DE;
+}
+.header--intro_copyright p{
+    padding-left: 8vw;
+    padding-bottom: 7vh;
+    width: 40%;
 }
